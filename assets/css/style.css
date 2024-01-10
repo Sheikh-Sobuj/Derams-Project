@@ -102,7 +102,7 @@ nav a:hover{
     text-decoration:none;
     color:#00A2C1;
 }
-nav a#pull {
+#pull {
     display: none;
 }
 /*Styles for screen 600px and lower*/
@@ -150,7 +150,7 @@ nav a#pull {
     }
     nav a#pull:after {
         content:"";
-        background: url('nav-icon.png') no-repeat;
+        background: url("../img/nav-icon.png") no-repeat;
         width: 30px;
         height: 30px;
         display: inline-block;
@@ -262,13 +262,6 @@ nav a#pull {
 .expertise{
     background:#F7F7F7;
 }
-.expertice-right-grid{
-    margin: 0;
-    padding: 0;
-    background: url("../img/expert.jpg") no-repeat 0px 0px;
-    background-size: cover;
-    min-height: 656px;
-}
 .expertise-head h3{
     font-weight: 900;
     font-size: 2.5em;
@@ -329,7 +322,6 @@ nav a#pull {
 a.leran-more{
     background:#FFFFFF;
     color:#222222;
-    font-weight:500;
     text-transform:uppercase;
     text-decoration:none;
     font-weight:600;
@@ -339,8 +331,6 @@ a.leran-more{
     border-radius: 3em;
     -webkit-border-radius: 3em;
     -moz-border-radius: 3em;
-    -ms-border-radius: 3em;
-    -o-border-radius: 3em;
     border:1px solid #CBEEFA;
 }
 a.leran-more:hover{
@@ -412,11 +402,6 @@ a.leran-more:hover{
 .portfolio-top-left-grid-left span.p-icon3{
     background-position: 0px -183px;
 }
-.portfolio-top-right{
-    min-height:650px;
-    background:url("../img/port-right-divice.png") no-repeat 0px 0px;
-    background-size:cover;
-}
 .portfolio-top-right-inner{
     padding:0;
 }
@@ -427,7 +412,7 @@ a.leran-more:hover{
     position:relative;
 }
 .portfolio-work-grid-pic img{
-    width:100%;
+    width:97%;
 }
 .portfolio-work-grid-pic{
     position:relative;
